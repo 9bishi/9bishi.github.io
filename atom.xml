@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9bishi.github.io</id>
     <title>滑稽破站</title>
-    <updated>2020-07-30T15:10:59.153Z</updated>
+    <updated>2020-07-30T15:16:43.281Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9bishi.github.io"/>
     <link rel="self" href="https://9bishi.github.io/atom.xml"/>
@@ -21,7 +21,7 @@
 <strong>官方温控与Stic温控的区别是Stic温控接管的是内核温控,屏蔽掉了系统温控,同时也对一些调度兼容性不友好;如果你是南方朋友或者装紫宸调度,高雄调度啥的推荐用官方温控版</strong><br>
 <strong>刷了62Hz的用户推荐开机之后关屏等待5秒再使用,获得最佳的使用效果!</strong><br>
 <strong>刷之后请再刷一遍Magisk20.4,来保留magisk,内核自带的Magisk不兼容你们的A Only系统,我自己的系统为super双系统模式</strong></p>
-<p><code>同时内核也遵守Linux GPL协议开源了: https://github.com/Aquarius223/Xiaomi_Kernel_OpenSource/tree/stic-polaris-q-dev</code><br>
+<p>同时内核也遵守Linux GPL协议开源了: https://github.com/Aquarius223/Xiaomi_Kernel_OpenSource/tree/stic-polaris-q-dev<br>
 编译使用defconfig:stic-polaris_defconfig<br>
 编译环境需要i9 9900K 64G内存 40G的硬盘</p>
 <h2 id="sticturbo-66日志这次改动较大请耐心看完">SticTurbo 6.6日志(这次改动较大,请耐心看完):</h2>
@@ -60,7 +60,9 @@
 <em>33.改善开机久熵池枯竭的问题</em></p>
 <p>下载地址: https://www.lanzoux.com/ix8V4f38rsb<br>
 [原帖地址]: https://www.coolapk.com/feed/20519928?shareKey=NTM3ODZhNjI3YjdjNWYyMmRmZDQ~&amp;shareUid=2977822&amp;shareFrom=com.coolapk.market_10.5-beta1<br>
-以免被删</p>
+以免被删😊<br>
+###字数905<br>
+###阅读时间3m 21s</p>
 ]]></content>
     </entry>
     <entry>
