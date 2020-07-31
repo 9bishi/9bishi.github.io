@@ -1,8 +1,8 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>标签列表 | 滑稽破站</title>
+<title>JVM参数 | 滑稽破站</title>
 <meta name="description" content="记录下学习的过程及好用的软件教程" />
 <link rel="shortcut icon" href="https://9bishi.github.io/favicon.ico">
 <link rel="stylesheet" href="https://9bishi.github.io/styles/main.css">
@@ -14,11 +14,15 @@
 <script src="https://9bishi.github.io/media/js/view-image.min.js"></script>
 <script src="https://9bishi.github.io/media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://9bishi.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="基础参数
+
+-server -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMetho..." />
+    <meta name="keywords" content="" />
+    <script src="https://9bishi.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://9bishi.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -85,26 +89,111 @@
         </div>
       </div>
 
-      <main id="tags" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('/media/images/gridea.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-07-31"><i class="fa fa-calendar"></i><span class="lately">6 分钟前</span></time>
+              
+              <a href="https://9bishi.github.io/post/jvm-can-shu/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/jvm-can-shu/"> </span>
+              </a>
+              <span id="/jvm-can-shu/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+              </div>
+              <h1 class="title ularge white bold">JVM参数</h1>
+            </div>
+          </div>
+        </div>  
+
         <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h2 id="基础参数">基础参数</h2>
+<blockquote>
+<p>-server -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMethods -XX:+UseSharedSpaces -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:-UseAdaptiveSizePolicy</p>
+</blockquote>
+<p>启动器没有内存分配功能的话请在下面这个参数里填上需要的内存大小（如-Xmx4G或-Xmx4096M)后放进去（不要忘了用空格隔开每个参数）</p>
+<p>-Xmx</p>
+<h4 id="如果你是用的是最新版java那么建议用下面这组参数用了就崩溃说明不是最新版">如果你是用的是最新版Java，那么建议用下面这组参数（用了就崩溃说明不是最新版）</h4>
+<blockquote>
+<p>-server -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMethods -XX:+UseSharedSpaces -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:-UseAdaptiveSizePolicy</p>
+</blockquote>
+<h1 id="补充说明">补充说明：</h1>
+<ol>
+<li><strong>-server较流畅但是内存占用略高</strong></li>
+<li><strong>-client内存占用略低但是流畅度稍差</strong></li>
+<li><strong>按自己要求更改即可</strong></li>
+</ol>
 
-          <div class="widget_tag_cloud tagcloud">
-            
-              <a href="https://9bishi.github.io/tag/GJ5eo0bGf/" class="ctag ctag-0 ctag-GJ5eo0bGf" aria-label="">mix2s</a>
-            
-              <a href="https://9bishi.github.io/tag/iWPWZ28iT/" class="ctag ctag-1 ctag-iWPWZ28iT" aria-label="">Gridea</a>
-            
-          </div>
-        </div>
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
 
-        </div>
+            <section class="related section">
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://9bishi.github.io/media/images/gridea.jpg');"></div>
+                 <a href="https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-07-31">2020-07-31</time>
+                  <h4 class="title white no-margin"> WPS Office v12.7.1 for Android Google Play 直装付费高级会员版</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://9bishi.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<div class="clear"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '28ee335a2e1a436384bd',
+    clientSecret: 'e0acc449bc63d857c98c794b3b72fb79ac381e68',
+    repo: '9bishi.github.io',
+    owner: '9bishi',
+    admin: ['9bishi'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+                
+                
+              </div>
+            
+
+            </div>
           </div>
-        </div>
       </main>
 
-        <footer id="footer" class="grid-container">
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -226,6 +315,9 @@
     <div class="clear"></div>
 
         
+
+      
+    <script src="https://9bishi.github.io/media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->

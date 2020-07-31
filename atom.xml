@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9bishi.github.io</id>
     <title>滑稽破站</title>
-    <updated>2020-07-30T15:18:49.510Z</updated>
+    <updated>2020-07-31T04:28:48.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9bishi.github.io"/>
     <link rel="self" href="https://9bishi.github.io/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://9bishi.github.io/images/avatar.png</logo>
     <icon>https://9bishi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 滑稽破站</rights>
+    <entry>
+        <title type="html"><![CDATA[JVM参数]]></title>
+        <id>https://9bishi.github.io/post/jvm-can-shu/</id>
+        <link href="https://9bishi.github.io/post/jvm-can-shu/">
+        </link>
+        <updated>2020-07-31T04:22:57.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="基础参数">基础参数</h2>
+<blockquote>
+<p>-server -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMethods -XX:+UseSharedSpaces -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:-UseAdaptiveSizePolicy</p>
+</blockquote>
+<p>启动器没有内存分配功能的话请在下面这个参数里填上需要的内存大小（如-Xmx4G或-Xmx4096M)后放进去（不要忘了用空格隔开每个参数）</p>
+<p>-Xmx</p>
+<h4 id="如果你是用的是最新版java那么建议用下面这组参数用了就崩溃说明不是最新版">如果你是用的是最新版Java，那么建议用下面这组参数（用了就崩溃说明不是最新版）</h4>
+<blockquote>
+<p>-server -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMethods -XX:+UseSharedSpaces -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:-UseAdaptiveSizePolicy</p>
+</blockquote>
+<h1 id="补充说明">补充说明：</h1>
+<ol>
+<li><strong>-server较流畅但是内存占用略高</strong></li>
+<li><strong>-client内存占用略低但是流畅度稍差</strong></li>
+<li><strong>按自己要求更改即可</strong></li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ WPS Office v12.7.1 for Android Google Play 直装付费高级会员版]]></title>
+        <id>https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/</id>
+        <link href="https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/">
+        </link>
+        <updated>2020-07-31T04:21:38.000Z</updated>
+        <content type="html"><![CDATA[<p>下载地址</p>
+<blockquote>
+<p>http://www.yxssp.com/download.php?author=gekcs&amp;btitle=%E5%BC%82%E6%98%9F%E8%BD%AF%E4%BB%B6%E7%A9%BA%E9%97%B4&amp;id=22876</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小米MIX 2S SticTurbo6.6内核更新]]></title>
         <id>https://9bishi.github.io/post/xiao-mi-mix-2s-sticturbo66-nei-he-geng-xin/</id>
