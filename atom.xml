@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9bishi.github.io</id>
     <title>滑稽破站</title>
-    <updated>2020-07-31T05:17:08.071Z</updated>
+    <updated>2020-08-02T04:28:06.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9bishi.github.io"/>
     <link rel="self" href="https://9bishi.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://9bishi.github.io/images/avatar.png</logo>
     <icon>https://9bishi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 滑稽破站</rights>
+    <entry>
+        <title type="html"><![CDATA[以下是全机型TWRP，请根据品牌下载，不断补充升级中]]></title>
+        <id>https://9bishi.github.io/post/yi-xia-shi-quan-ji-xing-twrpqing-gen-ju-pin-pai-xia-zai-bu-duan-bu-chong-sheng-ji-zhong/</id>
+        <link href="https://9bishi.github.io/post/yi-xia-shi-quan-ji-xing-twrpqing-gen-ju-pin-pai-xia-zai-bu-duan-bu-chong-sheng-ji-zhong/">
+        </link>
+        <updated>2020-08-02T04:26:58.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="小米机型-httpscloud189cntnvvivieaijb2"><strong>小米机型： https://cloud.189.cn/t/NVvIvieaIJb2</strong></h2>
+<h2 id="一加机型-httpscloud189cntfvayvbvnzqvb"><strong>一加机型： https://cloud.189.cn/t/FvaYVbVNzQVb</strong></h2>
+<h2 id="360机型-httpscloud189cntrivyervabf6v"><strong>360机型： https://cloud.189.cn/t/rIvyErvABf6v</strong></h2>
+<h2 id="zuk机型-httpscloud189cnt2umbmyfjrnzj"><strong>ZUK机型： https://cloud.189.cn/t/2uMbmyFJRNZj</strong></h2>
+<h2 id="联想机型-httpscloud189cntjrnmvjr2yi3i"><strong>联想机型： https://cloud.189.cn/t/JRnMVjr2yI3i</strong></h2>
+<h2 id="努比亚机型-httpscloud189cntafnzvmjzznje"><strong>努比亚机型： https://cloud.189.cn/t/AFNZvmJZZNje</strong></h2>
+<h2 id="华硕机型-httpscloud189cntannneeraryva"><strong>华硕机型： https://cloud.189.cn/t/ANNneerArYva</strong></h2>
+<h2 id="乐视机型-httpscloud189cnteujuuzqv3yza"><strong>乐视机型： https://cloud.189.cn/t/eUjuUzQV3Yza</strong></h2>
+<h2 id="oppo机型-httpscloud189cntqy2yeva2aqm2"><strong>OPPO机型： https://cloud.189.cn/t/qy2yEva2aqm2</strong></h2>
+<h2 id="魅族机型-httpscloud189cntb2m3uzazybf2"><strong>魅族机型： https://cloud.189.cn/t/b2M3UzAzYBf2</strong></h2>
+<h2 id="vivo机型-httpscloud189cnt36b7r3yzbzb3"><strong>VIVO机型： https://cloud.189.cn/t/36B7R3YZBZB3</strong></h2>
+<h2 id="三星机型-httpscloud189cntife22e7ziiv2"><strong>三星机型： https://cloud.189.cn/t/Ife22e7ziIv2</strong></h2>
+<h2 id="华为机型-httpscloud189cntjzfnaybyzeqe"><strong>华为机型： https://cloud.189.cn/t/JZFnaybYzeqe</strong></h2>
+<h2 id="海信机型-httpscloud189cntbfajbzieizy2"><strong>海信机型： https://cloud.189.cn/t/BfAJBzieIzy2</strong></h2>
+<h2 id="中国移动-httpscloud189cnt7rn6ve7vzbma"><strong>中国移动： https://cloud.189.cn/t/7Rn6ve7VZbma</strong></h2>
+<h2 id="lg机型-httpscloud189cntu6vf7rzefumz"><strong>LG机型： https://cloud.189.cn/t/u6VF7rzEfuMz</strong></h2>
+<h2 id="锤子机型-httpscloud189cntr2uqyeuybmnq"><strong>锤子机型： https://cloud.189.cn/t/r2uqyeuYbMnq</strong></h2>
+<h2 id="黑鲨机型-httpscloud189cnteazizmyzauua"><strong>黑鲨机型： https://cloud.189.cn/t/eAzIzmYzauua</strong></h2>
+<h2 id="安卓之父-httpscloud189cntvjnavnnzemen"><strong>安卓之父： https://cloud.189.cn/t/VJnAVnNzemEn</strong></h2>
+<h2 id="其他机型-httpscloud189cntbiranyrqnz7f"><strong>其他机型： https://cloud.189.cn/t/bIrAnyrQNZ7f</strong></h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Retouch汉化解锁]]></title>
         <id>https://9bishi.github.io/post/retouch-han-hua-jie-suo/</id>
