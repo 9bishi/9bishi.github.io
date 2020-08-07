@@ -1,417 +1,260 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://9bishi.github.io/media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://9bishi.github.io/media/css/live2d.css">
-    <link rel="stylesheet" href="https://9bishi.github.io/styles/main.css">
-    <meta name="description" content="记录下学习的过程及好用的软件教程" />
-    <title>滑稽破站</title>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>滑稽破站</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://9bishi.github.io/favicon.ico?v=1596789898463">
+<link rel="stylesheet" href="https://9bishi.github.io/styles/main.css">
 
 
-<body>
-    <!-- 响应式布局，针对PC端内容显示 -->
-    <div id="content">
-        <div class="nav-large">
-            <div class="row">
-                
-        
-    </div>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="记录下学习的过程及好用的软件教程">
     
-    </div>
-    <div id="bg">
-    </div>
-    <div id="bgchoice" style="display: none">
-            </div>
-            
-            <div id="bgurl" style="display:none"></div>
-              
-    <!-- 响应式布局，针对手机端内容显示 -->
-    <div class="nav-small">
-            <head>
-  <!-- 引入Bootstrap核心样式文件 -->
-  <link rel="stylesheet" href="https://9bishi.github.io/media/css/bootstrap.min.css">
-</head>
+  </head>
+  <body>
+    <div id="app" class="main">
 
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#barmenu" aria-expanded="false" id="barbutton">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://9bishi.github.io">滑稽破站&nbsp;&nbsp;|</a>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://9bishi.github.io">
+        <img src="https://9bishi.github.io/images/avatar.png?v=1596789898463" class="site-logo">
+        <h1 class="site-title">滑稽破站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="barmenu">
-        <ul class="nav navbar-nav">
-          
-          
-          <li>
-            <a href="/">
-              首页
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/archives">
-              归档
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/tags">
-              标签
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/post/about">
-              关于
-            </a>
-          </li>
-          
-          
-          
-          
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-
-  <!-- 引入jQuery核心js文件 -->
-  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script>
-  var btstate = false;
-  var bt = $("#barbutton");
-  var bm = $("#barmenu");
-  bt.click(function(){
-    dropdown();
-  })
-  function dropdown(){
-    console.log(btstate);
-    //下拉
-    if(btstate==false){
-      bt.removeClass("collapsed");
-      bt.attr("aria-expanded","true");
-      bm.attr("aria-expanded","true")
-      bm.fadeIn(700);
-      btstate = true;
-    }
-    else{
-      bt.addClass("collapsed");
-      bt.attr("aria-expanded","false");
-      bm.removeClass("in");
-      bm.hide();
-      bm.attr("aria-expanded","false");
-      btstate = false;
-    }
-  }
-  </script> 
-</body>
-            <!-- 移动端欢迎页 -->
-<div class="welcome">
-    <div class="avatar-border">
-        <img src="https://9bishi.github.io/images/avatar.png?v=1596788805474" class="avatar">
     </div>
-    <span class="mobiledescribtion"></span>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      记录下学习的过程及好用的软件教程
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://9bishi.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-    <div id="mobilebgurl" style="display:none"></div>
 
-<script>
-    var welcome = $('.welcome');
-    var bgurl = document.getElementById("mobilebgurl").innerHTML;
-    for (var i = 0; i < 3; i++)
-        bgurl = bgurl.replace("\\", "/");
-    welcome.css("background", "url('" + bgurl + "')");
-    var mobiledes = document.querySelector(".mobiledescribtion");
-    var text = "记录下学习的过程及好用的软件教程";
-    // 当前显示第几个字
-    var mobilecharIndex = 1;
-    // 每个字显示间隔默认是500毫秒
-    var mobiledelta = 500;
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/internet-download-manager-e-guo-da-shen-zhi-zuo-pi-fu-mei-hua-zhi-zhuang-ban/">
+                  <h2 class="post-title">Internet Download Manager – 俄国大神制作 皮肤美化直装版</h2>
+                </a>
+                <div class="post-date">
+                  2020-08-07
+                </div>
+                <div class="post-abstract">
+                  <blockquote>
+<p>稳定持久，解锁彻底～</p>
+</blockquote>
+<h2 id="此版是俄国大神最新制作的破解版相比国内的idm破解版来说有着更多的皮肤并且不需要注册机直接安装就是破解版">此版是俄国大神最新制作的破解版，相比国内的IDM破解版来说有着更多的皮肤，并且不需要注册机，直接安装就是破解版。</h2>
 
-    // 记录动画执行开始时间
-    var mobilestart = null;
-    // 是否为删除动画
-    var mobileisDeleting = false;
-
-    // 动画回调函数
-    function mobileLoadDes(time) {
-        window.requestAnimationFrame(mobileLoadDes);
-        // 初始化开始时间
-        if (!mobilestart) start = time;
-        // 获取时间间隔
-        var mobileprogress = time - mobilestart;
-        // 每隔一定的时间，打印出一个新的字符
-        if (mobileprogress > mobiledelta) {
-            // 如果是打字效果
-            if (!mobileisDeleting) {
-                // 给展示文字的span新增一个字符，使用innerHTML来替换，charIndex自增1，然后返回新的字符串子串
-                mobiledes.innerHTML = "&nbsp;" + text.slice(
-                    0,
-                    ++mobilecharIndex
-                );
-                mobiledelta = 500 - Math.random() * 400;
-            } else {
-                // 如果是删除效果，则把文字一个一个减掉
-                mobiledes.innerHTML = "&nbsp;" + text.slice(
-                    0,
-                    mobilecharIndex--
-                );
-            }
-            // 把star更新为当前时间，进行下一个周期
-            mobilestart = time;
-
-            // 如果文字已经全部打印完毕
-            if (mobilecharIndex === text.length) {
-                // 下次开始删除文字
-                mobileisDeleting = true;
-                // 删除文字的间隔为200毫秒
-                mobiledelta = 100;
-                // 额外等待1.2秒后再删除
-                mobilestart = time + 1000;
-            }
-
-            // 如果文字删除完毕
-            if (mobilecharIndex < 0) {
-                mobileisDeleting = false;
-                // 额外增加200毫秒延迟
-                mobilestart = time + 200;
-            }
-        }
-    }
-
-    window.requestAnimationFrame(mobileLoadDes);
-</script>
-            <link rel="stylesheet" href="https://9bishi.github.io/media/css/font-awesome.css">
-<div id="post-container">
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/internet-download-manager-e-guo-da-shen-zhi-zuo-pi-fu-mei-hua-zhi-zhuang-ban/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://9bishi.github.io/post/internet-download-manager-e-guo-da-shen-zhi-zuo-pi-fu-mei-hua-zhi-zhuang-ban/';return false">
-                    Internet Download Manager – 俄国大神制作 皮肤美化直装版
                 </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-08-07</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/yi-xia-shi-quan-ji-xing-twrpqing-gen-ju-pin-pai-xia-zai-bu-duan-bu-chong-sheng-ji-zhong/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://9bishi.github.io/post/yi-xia-shi-quan-ji-xing-twrpqing-gen-ju-pin-pai-xia-zai-bu-duan-bu-chong-sheng-ji-zhong/';return false">
-                    以下是全机型TWRP，请根据品牌下载，不断补充升级中
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/yi-xia-shi-quan-ji-xing-twrpqing-gen-ju-pin-pai-xia-zai-bu-duan-bu-chong-sheng-ji-zhong/">
+                  <h2 class="post-title">以下是全机型TWRP，请根据品牌下载，不断补充升级中</h2>
+                </a>
+                <div class="post-date">
+                  2020-08-02
                 </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-08-02</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
-            <div class="posttag">
-                
-                <a href="https://9bishi.github.io/tag/ulxKE-1Lo/" class="postlink">
-                    <i class="fa fa-tag"></i> twrp
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/retouch-han-hua-jie-suo/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://9bishi.github.io/post/retouch-han-hua-jie-suo/';return false">
-                    Retouch汉化解锁
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-31</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            <img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1596181628639&amp;di=d17fc15572ec5d76c77dff66276d715c&amp;imgtype=0&amp;src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D9d83522e79ec54e741ec1a1689399bfd%2Fe746002dd42a28348827e91b59b5c9ea15cebf39.jpg" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/jvm-can-shu/';return false">
-            <div class="posttitlebox">
-                <div class="posttitle" onclick="window.location.href= 'https://9bishi.github.io/post/jvm-can-shu/';return false">
-                    JVM参数
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-31</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://9bishi.github.io/tag/oyKjXCM8t/" class="postlink">
-                    <i class="fa fa-tag"></i> MC
-                </a>
-                
-                <a href="https://9bishi.github.io/tag/rXZ4ofQcBq/" class="postlink">
-                    <i class="fa fa-tag"></i> Java
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            <img src="https://s1.ax1x.com/2020/07/31/aQDhWt.jpg" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/';return false">
-            <div class="posttitlebox">
-                <div class="posttitle" onclick="window.location.href= 'https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/';return false">
-                     WPS Office v12.7.1 for Android Google Play 直装付费高级会员版
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-31</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
-                <a href="https://9bishi.github.io/tag/IAAqC5EEt/" class="postlink">
-                    <i class="fa fa-tag"></i> wps
-                </a>
-                
-                <a href="https://9bishi.github.io/tag/G0DMOosRsA/" class="postlink">
-                    <i class="fa fa-tag"></i> 破解
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            
-            <img src="" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/xiao-mi-mix-2s-sticturbo66-nei-he-geng-xin/';return false">  
-            
-            <div class="posttitlebox">
-                <div class="posttitlewithoutimg" onclick="window.location.href= 'https://9bishi.github.io/post/xiao-mi-mix-2s-sticturbo66-nei-he-geng-xin/';return false">
-                    小米MIX 2S SticTurbo6.6内核更新
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-30</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 4 min read</div>
-            <div class="posttag">
-                
-                <a href="https://9bishi.github.io/tag/GJ5eo0bGf/" class="postlink">
-                    <i class="fa fa-tag"></i> mix2s
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="postshow">
-        
-        <div id="post" style="width:100%">
-            <img src="https://9bishi.github.io/post-images/hello-gridea.png" class="postimage"
-                onclick="window.location.href= 'https://9bishi.github.io/post/hello-gridea/';return false">
-            <div class="posttitlebox">
-                <div class="posttitle" onclick="window.location.href= 'https://9bishi.github.io/post/hello-gridea/';return false">
-                    Hello Gridea
-                </div>
-            </div>
-        </div>
-        <div class="postinfo">
-            <div class="postdate"><i class="fa fa-calendar"></i>2018-12-12</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
-            <div class="posttag">
-                
-                <a href="https://9bishi.github.io/tag/iWPWZ28iT/" class="postlink">
-                    <i class="fa fa-tag"></i> Gridea
-                </a>
-                
-            </div>
-        </div>
-        
-    </div>
-    
-</div>
-            <div class="pagination-container">
+                <div class="post-abstract">
                   
-                
-            </div>
-            <div style="margin-bottom:60px">&nbsp;</div>
-        </div>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/retouch-han-hua-jie-suo/">
+                  <h2 class="post-title">Retouch汉化解锁</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-31
+                </div>
+                <div class="post-abstract">
+                  <p><a href="https://1nits.lanzous.com/b00nrop2h">下载链接</a><br>
+新版本v4.4.0汉化解锁</p>
 
-        <div id="landlord">
-            <div class="message" style="opacity:0"></div>
-            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/jvm-can-shu/">
+                  <h2 class="post-title">JVM参数</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-31
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://9bishi.github.io/post/jvm-can-shu/">
+                  <div class="feature-container" style="background-image: url('https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1596181628639&amp;di=d17fc15572ec5d76c77dff66276d715c&amp;imgtype=0&amp;src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D9d83522e79ec54e741ec1a1689399bfd%2Fe746002dd42a28348827e91b59b5c9ea15cebf39.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/">
+                  <h2 class="post-title"> WPS Office v12.7.1 for Android Google Play 直装付费高级会员版</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-31
+                </div>
+                <div class="post-abstract">
+                  <h3 id="下载地址">下载地址</h3>
+<blockquote>
+<p>http://www.yxssp.com/download.php?author=gekcs&amp;btitle=%E5%BC%82%E6%98%9F%E8%BD%AF%E4%BB%B6%E7%A9%BA%E9%97%B4&amp;id=22876</p>
+</blockquote>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://9bishi.github.io/post/wps-office-v1271-for-android-google-play-zhi-zhuang-fu-fei-gao-ji-hui-yuan-ban/">
+                  <div class="feature-container" style="background-image: url('https://s1.ax1x.com/2020/07/31/aQDhWt.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/xiao-mi-mix-2s-sticturbo66-nei-he-geng-xin/">
+                  <h2 class="post-title">小米MIX 2S SticTurbo6.6内核更新</h2>
+                </a>
+                <div class="post-date">
+                  2020-07-30
+                </div>
+                <div class="post-abstract">
+                  <p><strong>刷之前请先恢复官方内核然后再刷这个内核,减少冲突导致的各种bug</strong><br>
+<strong>水龙自用版为我自己用的版本,因为我自己的屏幕跟你们不一样,我超到了120Hz(jdi_s是62Hz),所以屏幕显示会偏深,需要降低饱和度来恢复成正常颜色,如果介意的话安装内核管理软件,找到屏幕管理,把饱和度拉到30然后关屏再开即可(仅限水龙自用版,其他版本饱和度默认为30)</strong><br>
+<strong>官方温控与Stic温控的区别是Stic温控接管的是内核温控,屏蔽掉了系统温控,同时也对一些调度兼容性不友好;如果你是南方朋友或者装紫宸调度,高雄调度啥的推荐用官方温控版</strong><br>
+<strong>刷了62Hz的用户推荐开机之后关屏等待5秒再使用,获得最佳的使用效果!</strong><br>
+<strong>刷之后请再刷一遍Magisk20.4,来保留magisk,内核自带的Magisk不兼容你们的A Only系统,我自己的系统为super双系统模式</strong></p>
+
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://9bishi.github.io/post/hello-gridea/">
+                  <h2 class="post-title">Hello Gridea</h2>
+                </a>
+                <div class="post-date">
+                  2018-12-12
+                </div>
+                <div class="post-abstract">
+                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://9bishi.github.io/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('https://9bishi.github.io/post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
         </div>
+      </div>
     </div>
-    <div id="domainname" style="display:none">https://9bishi.github.io</div>
-</body>
 
-</html>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
+AOS.init();
 
-<script>
-        var bgchoice=$('#bgchoice').html();
-        var bg = $('#bg');
-        var bgurl = document.getElementById("bgurl").innerHTML;
-        if(bgchoice=='default')
-            for (var i = 0; i < 3; i++)
-                bgurl = bgurl.replace("\\", "/");
-        bg.css("background", "url('" + bgurl + "')");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
+
+
+
+  </body>
+</html>
