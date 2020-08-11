@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9bishi.github.io</id>
     <title>滑稽破站</title>
-    <updated>2020-08-11T15:34:45.752Z</updated>
+    <updated>2020-08-11T15:36:43.920Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://9bishi.github.io"/>
     <link rel="self" href="https://9bishi.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://9bishi.github.io/images/avatar.png</logo>
     <icon>https://9bishi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 滑稽破站</rights>
+    <entry>
+        <title type="html"><![CDATA[Dism++，也许是最强的实用工具]]></title>
+        <id>https://9bishi.github.io/post/dismye-xu-shi-zui-qiang-de-shi-yong-gong-ju/</id>
+        <link href="https://9bishi.github.io/post/dismye-xu-shi-zui-qiang-de-shi-yong-gong-ju/">
+        </link>
+        <updated>2020-08-11T15:36:03.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="dism也许是最强的实用工具">Dism++，也许是最强的实用工具</h1>
+<p>全球第一款基于 CBS 的 Dism GUI 实现。</p>
+<p>What's new ‒ version 10.1.1001.10 (2020-01-18)<br>
+<a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1001.10/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip">下载 Dism++ x86/x64/ARM64</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[秋刀鱼工具箱]]></title>
         <id>https://9bishi.github.io/post/qiu-dao-yu-gong-ju-xiang/</id>
