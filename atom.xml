@@ -3,11 +3,11 @@
   <title>虚空终端</title>
   
   <subtitle>心不畏死 踏屍前行</subtitle>
-  <link href="https://blog.naxida.cn/atom.xml" rel="self"/>
+  <link href="https://naxida.cn/atom.xml" rel="self"/>
   
-  <link href="https://blog.naxida.cn/"/>
+  <link href="https://naxida.cn/"/>
   <updated>2023-01-01T09:17:14.083Z</updated>
-  <id>https://blog.naxida.cn/</id>
+  <id>https://naxida.cn/</id>
   
   <author>
     <name>纳西妲</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2022年度总结</title>
-    <link href="https://blog.naxida.cn/posts/622a5765.html"/>
-    <id>https://blog.naxida.cn/posts/622a5765.html</id>
+    <link href="https://naxida.cn/posts/622a5765.html"/>
+    <id>https://naxida.cn/posts/622a5765.html</id>
     <published>2023-01-01T09:04:41.000Z</published>
     <updated>2023-01-01T09:17:14.083Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>对一些问题的回答</title>
-    <link href="https://blog.naxida.cn/posts/7b7b9ca0.html"/>
-    <id>https://blog.naxida.cn/posts/7b7b9ca0.html</id>
+    <link href="https://naxida.cn/posts/7b7b9ca0.html"/>
+    <id>https://naxida.cn/posts/7b7b9ca0.html</id>
     <published>2022-11-29T02:41:45.000Z</published>
     <updated>2022-12-22T08:29:43.128Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.naxida.cn/posts/16107.html"/>
-    <id>https://blog.naxida.cn/posts/16107.html</id>
+    <link href="https://naxida.cn/posts/16107.html"/>
+    <id>https://naxida.cn/posts/16107.html</id>
     <published>2022-08-04T16:00:00.000Z</published>
     <updated>2022-09-10T09:54:22.563Z</updated>
     
