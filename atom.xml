@@ -6,7 +6,7 @@
   <link href="https://naxida.cn/atom.xml" rel="self"/>
   
   <link href="https://naxida.cn/"/>
-  <updated>2023-01-01T09:17:14.083Z</updated>
+  <updated>2023-01-12T14:41:36.415Z</updated>
   <id>https://naxida.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>React学习</title>
+    <link href="https://naxida.cn/posts/9ac48510.html"/>
+    <id>https://naxida.cn/posts/9ac48510.html</id>
+    <published>2023-01-12T14:35:41.000Z</published>
+    <updated>2023-01-12T14:41:36.415Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##2023/1/12<br>正式开始学习，这篇文章将会实时更新我的学习进度和笔记。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>2022年度总结</title>
