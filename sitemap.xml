@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://naxida.cn/posts/cbd4b5ab.html</loc>
+    
+    <lastmod>2023-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naxida.cn/posts/9ac48510.html</loc>
     
-    <lastmod>2023-01-12</lastmod>
+    <lastmod>2023-07-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://naxida.cn/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="https://naxida.cn/atom.xml" rel="self"/>
   
   <link href="https://naxida.cn/"/>
-  <updated>2023-01-12T14:44:39.355Z</updated>
+  <updated>2023-07-13T15:36:07.219Z</updated>
   <id>https://naxida.cn/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>最近</title>
+    <link href="https://naxida.cn/posts/cbd4b5ab.html"/>
+    <id>https://naxida.cn/posts/cbd4b5ab.html</id>
+    <published>2023-07-13T14:50:12.000Z</published>
+    <updated>2023-07-13T15:36:07.219Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="接触的新玩意"><a href="#接触的新玩意" class="headerlink" title="接触的新玩意"></a>接触的新玩意</h2><h3 id="大盘鸡——一种的大存储服务器"><a href="#大盘鸡——一种的大存储服务器" class="headerlink" title="大盘鸡——一种的大存储服务器"></a>大盘鸡——一种的大存储服务器</h3><p>在2月份的时候在考虑视频储存的最佳方案，考虑了b2存储加cloudflare的方案，可是因为b2给的免费的储存太少，直接劝退了我，然后在网上搜素发现了cloudflare可以直接将mp4文件缓存，经朋友的建议，我们就幻想使用大盘鸡＋cloudflare，并通过ip优选来加快在大陆的访问速度。事实上，延迟确实降低了，但这个下载速度在晚高峰直接低至几kb，直逼百度网盘，又因为我是直接买了一年，只好说凑活着用(<em>/ω＼</em>)。这里是<a href="https://cdn.cli.plus/">我的网址</a>，正为clicli提供第三方的上传平台。<br><video id="movies" src="https://cdn.cli.plus/view.php/4f0391090d47721c601e2570c286191d.mp4" autobuffer="true" controls="" width="100  %"></video><br><img src="https://img.gejiba.com/images/99c104357919f6f567abbb2ae0f46fae.png" alt="测速图片"></p><h3 id="我的开源试卷库"><a href="#我的开源试卷库" class="headerlink" title="我的开源试卷库"></a>我的开源试卷库</h3><p>看到网上的题目要钱，怎么想有点难受，所以我开始想自己搞一个试卷库，6月份心血来潮更了一波，然后就开始摆烂了(￣﹃￣)，感兴趣可以直接在github提交pr，我就直接合并，<a href="https://github.com/9bishi/cliplus-study">试卷库</a>.</p><h3 id="目前拥有的域名"><a href="#目前拥有的域名" class="headerlink" title="目前拥有的域名"></a>目前拥有的域名</h3><p>cli.plus<br>naxida.cn<br>10c3.com</p><h3 id="10c3的含义"><a href="#10c3的含义" class="headerlink" title="10c3的含义"></a>10c3的含义</h3><p>化学中有一种有机物叫做苯酚，可用来消毒杀菌，它的俗称石炭酸，10c3正是他的谐音我打算用它做一些好玩的项目(≧∀≦)ゞ。</p><h2 id="更新频率"><a href="#更新频率" class="headerlink" title="更新频率"></a>更新频率</h2><p>估计要锐减，因为明年高考，且是住校生，更没时间估计这个东西了。</p><h2 id="一些重要改变"><a href="#一些重要改变" class="headerlink" title="一些重要改变"></a>一些重要改变</h2><p>该博客将于我有空时转移到blog.naxida.cn，而naxida.cn将会做一些更有意思的东西，敬请期待吧。嘿嘿o(≧口≦)o</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>React学习</title>
     <link href="https://naxida.cn/posts/9ac48510.html"/>
     <id>https://naxida.cn/posts/9ac48510.html</id>
     <published>2023-01-12T14:35:41.000Z</published>
-    <updated>2023-01-12T14:44:39.355Z</updated>
+    <updated>2023-07-13T14:54:39.790Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##2023/1/12<br>正式开始学习，这篇文章将会实时更新我的学习进度和笔记。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="2023-1-12"><a href="#2023-1-12" class="headerlink" title="2023/1/12"></a>2023/1/12</h2><p>正式开始学习，这篇文章将会实时更新我的学习进度和笔记。</p><h2 id="2023-7-13"><a href="#2023-7-13" class="headerlink" title="2023/7/13"></a>2023/7/13</h2><p>学业吃紧先搁置罢</p>]]></content>
     
     
       
